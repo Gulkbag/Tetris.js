@@ -1,7 +1,7 @@
 const canvas = document.getElementById('tetris');
 const context = canvas.getContext('2d');
 
-context.scale(40, 40);
+context.scale(30, 30);
 
 function arenaSweep() {
   let rowCount = 1;
